@@ -1,0 +1,108 @@
+<html><head><style>
+    html,body{ padding: 0; margin: 0; }
+.container-main {
+        padding: 0;
+        background-image: url(https://www.stageandscreen.travel/sites/default/files/styles/large/public/LP%20-%20Cricket%20Australia.jpg?itok=dStxvjPW);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: auto;
+        margin-left: auto;
+        color: white;
+        height: 80px;
+        align-items: center;
+        display: grid;
+        background-position: bottom;
+        position: relative;
+    }
+@media only screen and (max-width: 767px) {
+    .container-main {
+        height: 105px !important;
+    }
+}
+.row-ctm {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0px 0;
+    }
+.team {
+        flex: 0 0 25%;
+        max-width: 25%;
+        text-align: center;
+    }
+.match_status {
+        flex: 0 0 50%;
+        max-width: 50%;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 10px;
+        letter-spacing: 0px;
+        padding: 4px 0;
+    }
+.inn1 {
+        font-size: 10px;
+        font-weight: 600;
+        font-style: italic;
+        color: #fff;
+        width: max-content;
+        margin: 0 auto;
+        padding: 5px;
+    }
+.curr_inn {
+        font-size: 12px;
+        font-weight: 600;
+    }
+.team_name {
+        text-transform: capitalize;
+        font-size: 14px;
+        margin: 0;
+        font-weight: 600;
+    }
+.day {
+        width: 100%;
+        display: block;
+        text-transform: capitalize;
+        font-size: 10px;
+    }
+.status {
+        width: 100%;
+    }
+.day:before {
+        color: #fff;
+        margin: 0 5px;
+    }
+.day:after {
+        color: #fff;
+        margin: 0 5px;
+    }
+.team_name img {
+        padding-left: 5px;
+        vertical-align: middle;
+    }
+</style>
+    </head><body><div class="container-main">
+        <div class="row-ctm">
+            <div class="team">
+                <div class="team_name">Lucknow Super Giants</div>
+                <div class="curr_inn">
+                    <span class="run">177/3</span>
+                    <span class="over">(20)</span>
+                    <br>
+                        <span class="over">CRR : 8.85 | RRR: 0.0</span>
+                </div>
+            </div>
+            <div class="match_status">
+                <span class="day"></span>
+                </div>
+            <div class="team">
+                <div class="team_name">Mumbai Indians</div>
+                <div class="curr_inn">
+                <span class="run">0/0</span>
+                    <span class="over">(0.0)</span>
+                    <br>
+                        <span class="over">CRR : 0 | RRR: 8.90</span>
+                </div>
+            </div>
+        </div>
+    </div></body></html>
